@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendiendo del DOM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1 id="title">Septima clase de <i>Coder Flex</i></h1>
+
+      <ul>
+        <li class="card-li">DOM</li>
+        <li class="card-li">Eventos</li>
+      </ul>
+
+      <ul>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>Vite</li>
+      </ul>
+    </div>
+
+    <input type="text" id="search" />
+
+    <div id="app-dinamica"></div>
+
+    <button id="obtener-usuarios" onclick="obtenerUsuarios()">
+      Obtener usuarios
+    </button>
+
+    <form id="formulario">
+      <input type="text" id="nombre" />
+      <input type="number" id="edad" />
+      <input type="text" id="curso" />
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
