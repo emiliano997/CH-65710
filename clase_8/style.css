@@ -1,0 +1,69 @@
+.post {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+
+  transition: all 0.5s;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 500px;
+
+  text-align: center;
+
+  background-color: white;
+
+  box-shadow: 0 0 5px black;
+}
+
+.post:hover {
+  transform: scale(1.1);
+}
+
+#posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1rem;
+
+  width: 100%;
+
+  padding: 1rem;
+}
+
+.pokemon {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+
+  transition: all 0.5s;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 500px;
+
+  text-align: center;
+}
+
+.pokemon:hover {
+  transform: scale(1.1);
+}
+
+#pokemons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1rem;
+
+  width: 100%;
+
+  padding: 1rem;
+}
